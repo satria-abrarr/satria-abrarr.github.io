@@ -1,226 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-	  
-	  <link rel="icon" href="img/favicon.svg">
-	  
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- My Fonts -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-        </style>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
+        <title>Satria Abrar</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Satria Abrar</a>
+                </div>
 
-    <title>Satria Abrar SWP</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">SATRIA ABRAR</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="about.html">About</a>
-                <a class="nav-item nav-link" href="typography.html">Typography</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Halo,<br>Saya <span class="home__title-color">Satria</span><br> Designer</h1>
+
+                    
+                </div>
+
+                <div class="home__social">
+                    <a href="https://instagram.com/satria.abrarr" class="home__social-icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/satria_abrarr" class="home__social-icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.facebook.com/satria.abrarr" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/profil1.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about1.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Saya Satria</h2>
+                        <p class="about__text">Halo perkenalkan saya Satria, pelajar berusia 17 tahun yang berasal dari Kota Malang. Website
+                           ini sebagai tempat belajar dan juga sebagai tempat uji kemampuanku di bidang HTML, CSS, dan Javascript. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PROJECT =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Project</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://www.instagram.com/p/CMre177HV5F/?utm_source=ig_web_copy_link"><img src="assets/img/work1.jpg" alt=""></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.instagram.com/p/CMvYYLlnSkN/?utm_source=ig_web_copy_link"><img src="assets/img/work2.jpg" alt=""></a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.instagram.com/p/CM08g29HQC5/?utm_source=ig_web_copy_link"><img src="assets/img/work3.jpg" alt=""></a>
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Satria Abrar</p>
+            <div class="footer__social">
+                <a href="https://instagram.com/satria.abrarr" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/satria_abrarr" class="footer__icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.facebook.com/satria.abrarr" class="footer__icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
             </div>
-            </div>
-        </div>
-      </nav>    
-    <!-- Akhir Navbar -->
-
-    <!-- Jumbotron -->
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-            <h1 class="display-4">Stay <span>classic</span> and <br><span>minimalism</span> guys</h1>
-            </div>
-        </div>
-
-    <!-- Akhir Jumbotron -->
-
-    <!-- Aout Me -->
-    <section class="about" id="about">
-      <div class="container">
-        <div class="row mb-4">
-          <div class="col text-center">
-            <h2>About</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-sm-5">
-            <p>Hai, Selamat datang. Perkenalkan nama saya SATRIA ABRAR S.W.P biasa dipanggil SATRIA, saya lahir di MALANG, 16 DESEMBER 2003. Ini adalah web yang telah saya buat.</p>
-          </div>
-          <div class="col-sm-5">
-            <p>Status saya saat ini adalah pelajar. Saya sekolah di SMK TELKOM MALANG yang terletak di Jl. Danau Ranau, Sawojajar, Kec. Kedungkandang, Malang, Jawa Timur.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Akhir About Me -->
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
 
 
-    <!-- Portofolio -->
-    <section class="portfolio bg-light" id="portfolio">
-      <div class="container">
-        <div class="row pt-4 mb-4">
-          <div class="col text-center">
-            <h2>Typography</h2>
-            <hr>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/portfolio/1.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center">Feel Fly Typography | by @satria.abrarr</p>
-              </div>
-            </div>
-          </div>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/portfolio/2.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center">Silhoutte Typography | by @satria.abrarr</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/portfolio/3.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center">Walk Alone Typography | by @satria.abrarr</p>
-              </div>
-            </div>
-          </div>   
-        </div>
-
-        <div class="row">
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/portfolio/4.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center">Building Klenteng Typography | by @satria.abrarr</p>
-              </div>
-            </div>
-          </div> 
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/portfolio/5.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center">Monochrome Typography | by @satria.abrarr
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/portfolio/6.jpg" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text text-center">Many Humans Typography | by @satria.abrarr</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Akhir Portofolio -->
-
-
-    <!-- contact -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="row pt-4 mb-4">
-          <div class="col text-center">
-            <h2>Contact</h2>
-            <hr>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-4">
-            <div class="card bg-dark text-white mb-4 text-center">
-              <div class="card-body">
-                <h5 class="card-title">Kontak saya</h5>
-                <p class="card-text">Untuk pertanyaan atau info lainnya bisa menghubungi melalui email : satria.aswp@gmail.com</p>
-              </div>
-            </div>
-            
-            <ul class="list-group mb-4">
-              <li class="list-group-item"><h3>Lokasi</h3>
-              </li>
-              <li class="list-group-item">Jl. Tanjung Putra Yudha, Tanjungrejo</li>
-              <li class="list-group-item">Sukun, Malang</li>
-              <li class="list-group-item">Jawa Timur, Indonesia</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-6">
-            
-            <form>
-              <div class="form-group">
-                <label for="nama">Nama</label>
-                <input type="text" class="form-control" id="nama">
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="text" class="form-control" id="email">
-              </div>
-              <div class="form-group">
-                <label for="phone">Nomor Telepon</label>
-                <input type="text" class="form-control" id="phone">
-              </div>
-              <div class="form-group">
-                <label for="message">Pesan</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-              </div>
-              <div class="form-group">
-                <button type="button" class="btn btn-dark bg-dark">Kirim Pesan</button>
-              </div>
-            </form>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- akhir contact -->
-
-    <!-- footer -->
-    <footer class="bg-dark text-white mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center">
-            <p>Copyright &copy; 2020 <a href="http://instagram.com/satria.abrarr">Satria Abrar</a></p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- akhir footer -->
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
