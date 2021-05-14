@@ -224,7 +224,7 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: .75rem 2.5rem;
+  padding: .60rem 2rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
@@ -246,6 +246,13 @@ img{
 .about__img img{
   width: 200px;
   border-radius: .5rem;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
 }
 
 /* ===== SKILLS =====*/
